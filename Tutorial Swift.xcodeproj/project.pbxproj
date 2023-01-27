@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91998782983EA2400F32CFE /* FavoriteButton.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = E91998772983EA2400F32CFE /* FavoriteButton.swift..swift */; };
 		E979E63929815CDE001CE27F /* Tutorial_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E979E63829815CDE001CE27F /* Tutorial_SwiftApp.swift */; };
 		E979E63B29815CDE001CE27F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E979E63A29815CDE001CE27F /* ContentView.swift */; };
 		E979E63D29815CDF001CE27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E979E63C29815CDF001CE27F /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E91998772983EA2400F32CFE /* FavoriteButton.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift..swift; sourceTree = "<group>"; };
 		E979E63529815CDE001CE27F /* Tutorial Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E979E63829815CDE001CE27F /* Tutorial_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_SwiftApp.swift; sourceTree = "<group>"; };
 		E979E63A29815CDE001CE27F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91998792983ED1600F32CFE /* Landmarks group */ = {
+			isa = PBXGroup;
+			children = (
+				E979E6C02982A30C001CE27F /* LandmarkRow.swift..swift */,
+				E979E6C22982BD93001CE27F /* LandmarkList.swift..swift */,
+				E979E6C42982C2FE001CE27F /* LandmarkDetail.swift..swift */,
+			);
+			path = "Landmarks group";
+			sourceTree = "<group>";
+		};
+		E919987A2983ED8100F32CFE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E979E64829816FE1001CE27F /* MapView.swift */,
+				E979E6462981614F001CE27F /* CircleImage.swift */,
+				E91998772983EA2400F32CFE /* FavoriteButton.swift..swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E979E62C29815CDE001CE27F = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				E979E63829815CDE001CE27F /* Tutorial_SwiftApp.swift */,
+				E919987A2983ED8100F32CFE /* Helpers */,
+				E91998792983ED1600F32CFE /* Landmarks group */,
 				E979E65029829EFD001CE27F /* Views */,
-				E979E64C29829583001CE27F /* Landmark.swift..swift */,
 				E979E6BF2982A16C001CE27F /* Model */,
-				E979E63C29815CDF001CE27F /* Assets.xcassets */,
 				E979E65129829FA4001CE27F /* Resources */,
+				E979E63C29815CDF001CE27F /* Assets.xcassets */,
 			);
 			path = "Tutorial Swift";
 			sourceTree = "<group>";
@@ -78,12 +101,7 @@
 		E979E65029829EFD001CE27F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E979E64829816FE1001CE27F /* MapView.swift */,
-				E979E6462981614F001CE27F /* CircleImage.swift */,
 				E979E63A29815CDE001CE27F /* ContentView.swift */,
-				E979E6C02982A30C001CE27F /* LandmarkRow.swift..swift */,
-				E979E6C22982BD93001CE27F /* LandmarkList.swift..swift */,
-				E979E6C42982C2FE001CE27F /* LandmarkDetail.swift..swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +117,7 @@
 		E979E6BF2982A16C001CE27F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E979E64C29829583001CE27F /* Landmark.swift..swift */,
 				E979E64E29829A7B001CE27F /* ModelData.swift..swift */,
 			);
 			path = Model;
@@ -181,6 +200,7 @@
 				E979E6C12982A30C001CE27F /* LandmarkRow.swift..swift in Sources */,
 				E979E6C52982C2FE001CE27F /* LandmarkDetail.swift..swift in Sources */,
 				E979E6472981614F001CE27F /* CircleImage.swift in Sources */,
+				E91998782983EA2400F32CFE /* FavoriteButton.swift..swift in Sources */,
 				E979E64D29829583001CE27F /* Landmark.swift..swift in Sources */,
 				E979E64F29829A7B001CE27F /* ModelData.swift..swift in Sources */,
 			);

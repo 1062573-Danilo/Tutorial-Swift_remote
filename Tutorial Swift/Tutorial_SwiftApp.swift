@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
-
 @main
 struct Tutorial_SwiftApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
